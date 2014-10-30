@@ -13,8 +13,8 @@ setup(
     license = "BSD",
     keywords = [
         "energenie",
-        "raspberry pi",
-    ]
+        "raspberrypi",
+    ],
     url = "https://github.com/bennuttall/energenie",
     packages = [
         "energenie",
