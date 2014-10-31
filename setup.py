@@ -6,10 +6,10 @@ def read(fname):
 
 setup(
     name = "energenie",
-    version = "0.1.5",
+    version = "0.1.8",
     author = "Ben Nuttall",
     author_email = "ben@raspberrypi.org",
-    description = "Python module to control the Energenie add-on board for the Raspberry Pi used for remotely turning power sockets on and off.",
+    description = "Remotely control power sockets from the Raspberry Pi",
     license = "BSD",
     keywords = [
         "energenie",
@@ -22,7 +22,7 @@ setup(
     install_requires = [
         "RPi.GPIO",
     ],
-    long_description = read('README.txt'),
+    long_description = read('DESCRIPTION.rst'),
     classifiers = [
         "Development Status :: 4 - Beta",
         "Topic :: Home Automation",
