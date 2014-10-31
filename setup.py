@@ -6,7 +6,7 @@ def read(fname):
 
 setup(
     name = "energenie",
-    version = "0.1.1",
+    version = "0.1.2",
     author = "Ben Nuttall",
     author_email = "ben@raspberrypi.org",
     description = "Python module to control the Energenie add-on board for the Raspberry Pi used for remotely turning power sockets on and off.",
