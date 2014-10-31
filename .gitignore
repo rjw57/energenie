@@ -1,2 +1,3 @@
 *.pyc
 energenie.egg-info/
+dist/
