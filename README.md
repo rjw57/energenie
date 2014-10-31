@@ -1,4 +1,4 @@
-# Energenie Demo
+# Energenie
 
 Python module to control the [Energenie](https://energenie4u.co.uk/) add-on board for the [Raspberry Pi](http://www.raspberrypi.org/) used for remotely turning power sockets on and off.
 
