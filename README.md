@@ -31,3 +31,7 @@ switch_off(4)
 - [Amy Mather](https://github.com/minigirlgeek)
 - [Ben Nuttall](https://github.com/bennuttall)
 - [Gordon Hollingworth](https://github.com/ghollingworth)
+
+## Licence
+
+[OSI Approved BSD Licence](LICENCE.txt)
