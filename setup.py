@@ -19,6 +19,9 @@ setup(
     packages = [
         "energenie",
     ],
+    install_requires = [
+        "RPi.GPIO",
+    ]
     long_description = read('README.md'),
     classifiers = [
         "Development Status :: 4 - Beta",
