@@ -2,6 +2,24 @@
 
 Python module to control the [Energenie](https://energenie4u.co.uk/) add-on board for the [Raspberry Pi](http://www.raspberrypi.org/) used for remotely turning power sockets on and off.
 
+## Installation
+
+On Raspberry Pi, install the `energenie` module in `pip`.
+
+### Python 3:
+
+```bash
+sudo apt-get install python3-pip
+sudo pip-3.2 install energenie
+```
+
+### Python 2:
+
+```bash
+sudo apt-get install python-pip
+sudo pip install energenie
+```
+
 ## Usage
 
 ```python
@@ -26,6 +44,7 @@ sleep(10)
 switch_off(1)
 switch_off(4)
 ```
+
 ## Contributors
 
 - [Amy Mather](https://github.com/minigirlgeek)
