@@ -47,8 +47,8 @@ switch_off(4)
 
 ## Contributors
 
+- [Ben Nuttall](https://github.com/bennuttall) (project maintainer)
 - [Amy Mather](https://github.com/minigirlgeek)
-- [Ben Nuttall](https://github.com/bennuttall)
 - [Gordon Hollingworth](https://github.com/ghollingworth)
 
 ## Licence
