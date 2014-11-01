@@ -30,9 +30,10 @@ GPIO.output(BIT3, False)
 GPIO.output(BIT4, False)
 
 # Codes for switching on and off the sockets
-#        all     1       2       3       4
-ON  = ['1011', '1111', '1110', '1101', '1100']
+#       all     1       2       3       4
+ON = ['1011', '1111', '1110', '1101', '1100']
 OFF = ['0011', '0111', '0110', '0101', '0100']
+
 
 def change_plug_state(socket, on_or_off):
     state = on_or_off[socket][3] == '1'
@@ -48,8 +49,10 @@ def change_plug_state(socket, on_or_off):
     sleep(0.25)
     GPIO.output(ENABLE, False)
 
+
 def switch_on(socket):
     change_plug_state(socket, ON)
+
 
 def switch_off(socket):
     change_plug_state(socket, OFF)
