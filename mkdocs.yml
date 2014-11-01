@@ -1,0 +1,8 @@
+site_name: Energenie
+theme: united
+site_url: https://pythonhosted.org/energenie/
+repo_url: https://github.com/bennuttall/energenie/
+site_description: Remotely control power sockets from the Raspberry Pi
+site_author: Ben Nuttall
+site_favicon: img/favicon.ico
+site_dir: pythonhosted
