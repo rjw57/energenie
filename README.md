@@ -45,11 +45,17 @@ switch_off(1)
 switch_off(4)
 ```
 
+See full documentation at [pythonhosted.org/energenie](https://pythonhosted.org/energenie/)
+
 ## Contributors
 
 - [Ben Nuttall](https://github.com/bennuttall) (project maintainer)
 - [Amy Mather](https://github.com/minigirlgeek)
 - [Gordon Hollingworth](https://github.com/ghollingworth)
+
+## Package information
+
+- [PyPi](https://pypi.python.org/pypi/energenie) energenie
 
 ## Licence
 
