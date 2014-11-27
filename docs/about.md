@@ -13,5 +13,5 @@ You can buy the add-on board and socket units from [Energenie4u.com](https://ene
 
 ## Which Raspberry Pi Models are supported
 
-- Model B and B+
-- Model A and A+
+- Model [B+](http://www.raspberrypi.org/products/model-b-plus) and [B](http://www.raspberrypi.org/products/model-b)
+- Model [A+]()http://www.raspberrypi.org/products/model-a-plus and [A](http://www.raspberrypi.org/products/model-a)
