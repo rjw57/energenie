@@ -55,6 +55,12 @@
             
             
             
+                <li >
+                    <a href="../installing">Installing</a>
+                </li>
+            
+            
+            
                 <li class="active">
                     <a href=".">Reference</a>
                 </li>
@@ -66,7 +72,7 @@
             <ul class="nav navbar-nav navbar-right">
                 
                 <li >
-                    <a rel="next" href="../about">
+                    <a rel="next" href="../installing">
                         <i class="fa fa-arrow-left"></i> Previous
                     </a>
                 </li>
@@ -94,29 +100,40 @@
             <div class="col-md-3"><div class="bs-sidebar hidden-print affix well" role="complementary">
     <ul class="nav bs-sidenav">
     
-        <li class="main active"><a href="#function-reference">Function Reference</a></li>
+        <li class="main active"><a href="#reference">Reference</a></li>
         
-            <li><a href="#switch_on">switch_on</a></li>
+            <li><a href="#functions">Functions</a></li>
         
-            <li><a href="#switch_off">switch_off</a></li>
+            <li><a href="#properties">Properties</a></li>
         
     
     </ul>
 </div></div>
             <div class="col-md-9" role="main">
 
-<h1 id="function-reference">Function Reference</h1>
-<h2 id="switch_on">switch_on</h2>
-<p><code>energenie.switch_on(socket)</code></p>
+<h1 id="reference">Reference</h1>
+<h2 id="functions">Functions</h2>
+<h3 id="switch_on">switch_on</h3>
+<pre><code class="python">energenie.switch_on(socket)
+</code></pre>
+
 <p>Switches on a power socket by number. Default is <code>0</code> (all).</p>
 <p>Using the four-way Energenie, provide the socket number (<code>1-4</code>) or <code>0</code> for all sockets.</p>
 <p>Using the single Energenie unit, provide <code>0</code>.</p>
 <p>If the socket provided is already switched on, it will stay on.</p>
-<h2 id="switch_off">switch_off</h2>
-<p><code>energenie.switch_off(socket)</code>.</p>
+<h3 id="switch_off">switch_off</h3>
+<pre><code class="python">energenie.switch_off(socket)
+</code></pre>
+
 <p>Switches off a power socket by number. Default is <code>0</code> (all).</p>
 <p>Using the four-way Energenie, provide the socket number (<code>1-4</code>) or <code>0</code> for all sockets.</p>
 <p>If the socket provided is already switched off, it will stay off.</p>
+<h2 id="properties">Properties</h2>
+<h3 id="version">Version</h3>
+<pre><code>energenie.__version__
+</code></pre>
+
+<p>Provides the version number of the <code>energenie</code> package.</p>
 </div>
         </div>
 
