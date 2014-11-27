@@ -50,9 +50,9 @@ def change_plug_state(socket, on_or_off):
     GPIO.output(ENABLE, False)
 
 
-def switch_on(socket):
+def switch_on(socket=0):
     change_plug_state(socket, ON)
 
 
-def switch_off(socket):
+def switch_off(socket=0):
     change_plug_state(socket, OFF)
