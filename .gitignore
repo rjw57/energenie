@@ -1,3 +1,4 @@
 *.pyc
 energenie.egg-info/
 dist/
+pythonhosted/energenie.zip
