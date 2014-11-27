@@ -5,7 +5,7 @@ from time import sleep
 BIT1 = 17
 BIT2 = 22
 BIT3 = 23
-BIT4 = 21
+BIT4 = 27
 
 ON_OFF_KEY = 24
 ENABLE = 25
