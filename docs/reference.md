@@ -14,9 +14,9 @@ If the socket provided is already switched on, it will stay on.
 
 ## switch_off
 
-`energenie.switch_off(socket)`. Default is `0` (all).
+`energenie.switch_off(socket)`.
 
-Switches off a power socket by number.
+Switches off a power socket by number. Default is `0` (all).
 
 Using the four-way Energenie, provide the socket number (`1-4`) or `0` for all sockets.
 
