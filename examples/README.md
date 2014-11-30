@@ -2,7 +2,7 @@
 
 ## Simple examples
 
-**[on.py](simple/on.py)**
+### [on.py](simple/on.py)
 
 Simple script to switch socket(s) on
 
@@ -12,7 +12,7 @@ from energenie import switch_on
 switch_on()
 ```
 
-**[off.py](simple/off.py)**
+### [off.py](simple/off.py)
 
 Simple script to switch socket(s) off
 
@@ -22,7 +22,7 @@ from energenie import switch_off
 switch_off()
 ```
 
-**[on_off.py](simple/on_off.py)**
+### [on_off.py](simple/on_off.py)
 
 Simple script to switch socket(s) on and off every 2 seconds
 

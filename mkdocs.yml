@@ -6,3 +6,10 @@ site_description: Remotely control power sockets from the Raspberry Pi
 site_author: Ben Nuttall
 site_favicon: img/favicon.ico
 site_dir: pythonhosted
+pages:
+- [index.md, Home]
+- [about.md, About]
+- [installing.md, Installing]
+- [examples.md, Examples]
+- [reference.md, Reference]
+
