@@ -6,11 +6,11 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         
         <meta name="author" content="Ben Nuttall">
-        <link rel="canonical" href="https://pythonhosted.org/energenie/about/">
+        <link rel="canonical" href="https://pythonhosted.org/energenie/examples/">
         <link rel="shortcut icon" href="../img/favicon.ico">
         
 
-        <title>About - Energenie</title>
+        <title>Examples - Energenie</title>
 
         <link href="../css/bootstrap-custom.min.css" rel="stylesheet">
         <link href="../css/font-awesome-4.0.3.css" rel="stylesheet">
@@ -49,14 +49,14 @@
             <ul class="nav navbar-nav">
             
             
-                <li class="active">
-                    <a href=".">About</a>
+                <li >
+                    <a href="../about">About</a>
                 </li>
             
             
             
-                <li >
-                    <a href="../examples">Examples</a>
+                <li class="active">
+                    <a href=".">Examples</a>
                 </li>
             
             
@@ -78,12 +78,12 @@
             <ul class="nav navbar-nav navbar-right">
                 
                 <li >
-                    <a rel="next" href="..">
+                    <a rel="next" href="../about">
                         <i class="fa fa-arrow-left"></i> Previous
                     </a>
                 </li>
                 <li >
-                    <a rel="prev" href="../examples">
+                    <a rel="prev" href="../installing">
                         Next <i class="fa fa-arrow-right"></i>
                     </a>
                 </li>
@@ -106,32 +106,45 @@
             <div class="col-md-3"><div class="bs-sidebar hidden-print affix well" role="complementary">
     <ul class="nav bs-sidenav">
     
-        <li class="main active"><a href="#about">About</a></li>
+        <li class="main active"><a href="#examples">Examples</a></li>
         
-            <li><a href="#where-to-buy">Where to buy</a></li>
-        
-            <li><a href="#which-raspberry-pi-models-are-supported">Which Raspberry Pi Models are supported</a></li>
+            <li><a href="#simple-examples">Simple examples</a></li>
         
     
     </ul>
 </div></div>
             <div class="col-md-9" role="main">
 
-<h1 id="about">About</h1>
-<p>Energenie is an add-on board for the Raspberry Pi that provides remote control of power sockets</p>
-<h2 id="where-to-buy">Where to buy</h2>
-<p>You can buy the add-on board and socket units from <a href="https://energenie4u.co.uk/">Energenie4u.com</a></p>
-<ul>
-<li><a href="https://energenie4u.co.uk/index.php/catalogue/product/ENER002-2PI">Pi-mote control board with two socket units</a></li>
-<li><a href="https://energenie4u.co.uk/index.php/catalogue/product/ENER314">Pi-mote control board</a></li>
-<li><a href="https://energenie4u.co.uk/index.php/catalogue/product/ENER002">Individual remote control socket</a></li>
-<li><a href="https://energenie4u.co.uk/index.php/catalogue/product/ENER010">Four way extension lead</a></li>
-</ul>
-<h2 id="which-raspberry-pi-models-are-supported">Which Raspberry Pi Models are supported</h2>
-<ul>
-<li>Model <a href="http://www.raspberrypi.org/products/model-b-plus">B+</a> and <a href="http://www.raspberrypi.org/products/model-b">B</a></li>
-<li>Model <a href="">A+</a>http://www.raspberrypi.org/products/model-a-plus and <a href="http://www.raspberrypi.org/products/model-a">A</a></li>
-</ul>
+<h1 id="examples">Examples</h1>
+<h2 id="simple-examples">Simple examples</h2>
+<p><strong><a href="https://github.com/bennuttall/energenie/tree/master/examples/simple/on.py">on.py</a></strong></p>
+<p>Simple script to switch socket(s) on</p>
+<pre><code class="python">from energenie import switch_on
+
+switch_on()
+</code></pre>
+
+<p><strong><a href="https://github.com/bennuttall/energenie/tree/master/examples/simple/off.py">off.py</a></strong></p>
+<p>Simple script to switch socket(s) off</p>
+<pre><code class="python">from energenie import switch_off
+
+switch_off()
+</code></pre>
+
+<p><strong><a href="https://github.com/bennuttall/energenie/tree/master/examples/simple/on_off.py">on_off.py</a></strong></p>
+<p>Simple script to switch socket(s) on and off every 2 seconds</p>
+<pre><code class="python">from energenie import switch_on, switch_off
+from time import sleep
+
+while True:
+    print(&quot;switching on...&quot;)
+    switch_on()
+    sleep(2)
+    print(&quot;switching off...&quot;)
+    switch_off()
+    sleep(2)
+</code></pre>
+
 </div>
         </div>
 
