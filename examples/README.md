@@ -39,3 +39,10 @@ while True:
     sleep(2)
 ```
 
+## Advanced examples
+
+### Web Interface
+
+Use Python web framework Flask to create a simple web interface to switch socket(s) on and off
+
+![](images/web.png)
