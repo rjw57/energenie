@@ -28,19 +28,19 @@ sudo pip install flask
 
 ## Usage
 
-Download these files and run the web app with the following commands:
+Download and extract these files:
 
 ```bash
 wget http://goo.gl/ULIk1x -O web.tar.gz
 tar xzf web.tar.gz
-cd web
-sudo python app.py
 ```
 
-Find your Pi's IP address with the following command:
+Find your Pi's IP address, enter the `web` folder and run the Python script to start the web server:
 
 ```bash
 hostname -I
+cd web
+sudo python app.py
 ```
 
 Then open a web browser on the Pi or any device on the same network and enter the IP address of the Pi. You'll see the `ON` and `OFF` buttons. Press these to control the Energenie.
