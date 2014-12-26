@@ -41,8 +41,8 @@ while True:
 
 ## Advanced examples
 
-### Web Interface
+### [Web Interface](advanced/web.md)
 
 Use Python web framework Flask to create a simple web interface to switch socket(s) on and off
 
-![](images/web.png)
+[![](images/web.png)](advanced/web.md)
