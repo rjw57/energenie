@@ -6,16 +6,16 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         
         <meta name="author" content="Ben Nuttall">
-        <link rel="canonical" href="https://pythonhosted.org/energenie/about/">
-        <link rel="shortcut icon" href="../img/favicon.ico">
+        <link rel="canonical" href="https://pythonhosted.org/energenie/examples/web/">
+        <link rel="shortcut icon" href="../../img/favicon.ico">
         
 
-        <title>About - Energenie</title>
+        <title>Web Application - Energenie</title>
 
-        <link href="../css/bootstrap-custom.min.css" rel="stylesheet">
-        <link href="../css/font-awesome-4.0.3.css" rel="stylesheet">
-        <link href="../css/prettify-1.0.css" rel="stylesheet">
-        <link href="../css/base.css" rel="stylesheet">
+        <link href="../../css/bootstrap-custom.min.css" rel="stylesheet">
+        <link href="../../css/font-awesome-4.0.3.css" rel="stylesheet">
+        <link href="../../css/prettify-1.0.css" rel="stylesheet">
+        <link href="../../css/base.css" rel="stylesheet">
 
         <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
         <!--[if lt IE 9]>
@@ -40,7 +40,7 @@
             </button>
 
             <!-- Main title -->
-            <a class="navbar-brand" href="..">Energenie</a>
+            <a class="navbar-brand" href="../..">Energenie</a>
         </div>
 
         <!-- Expanded navigation -->
@@ -49,28 +49,28 @@
             <ul class="nav navbar-nav">
             
             
-                <li class="active">
-                    <a href=".">About</a>
+                <li >
+                    <a href="../../about">About</a>
                 </li>
             
             
             
                 <li >
-                    <a href="../installing">Installing</a>
+                    <a href="../../installing">Installing</a>
                 </li>
             
             
             
-                <li class="dropdown">
+                <li class="dropdown active">
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown">Examples <b class="caret"></b></a>
                     <ul class="dropdown-menu">
                     
                         <li >
-                            <a href="../examples">Examples</a>
+                            <a href="..">Examples</a>
                         </li>
                     
-                        <li >
-                            <a href="../examples/web">Web Application</a>
+                        <li class="active">
+                            <a href=".">Web Application</a>
                         </li>
                     
                     </ul>
@@ -79,7 +79,7 @@
             
             
                 <li >
-                    <a href="../reference">Reference</a>
+                    <a href="../../reference">Reference</a>
                 </li>
             
             
@@ -94,7 +94,7 @@
                     </a>
                 </li>
                 <li >
-                    <a rel="prev" href="../installing">
+                    <a rel="prev" href="../../reference">
                         Next <i class="fa fa-arrow-right"></i>
                     </a>
                 </li>
@@ -117,40 +117,63 @@
             <div class="col-md-3"><div class="bs-sidebar hidden-print affix well" role="complementary">
     <ul class="nav bs-sidenav">
     
-        <li class="main active"><a href="#about">About</a></li>
+        <li class="main active"><a href="#web-interface-example">Web Interface Example</a></li>
         
-            <li><a href="#where-to-buy">Where to buy</a></li>
+            <li><a href="#requirements">Requirements</a></li>
         
-            <li><a href="#which-raspberry-pi-models-are-supported">Which Raspberry Pi Models are supported</a></li>
+            <li><a href="#files">Files</a></li>
+        
+            <li><a href="#usage">Usage</a></li>
         
     
     </ul>
 </div></div>
             <div class="col-md-9" role="main">
 
-<h1 id="about">About</h1>
-<p>Energenie is an add-on board for the Raspberry Pi that provides remote control of power sockets</p>
-<h2 id="where-to-buy">Where to buy</h2>
-<p>You can buy the add-on board and socket units from <a href="https://energenie4u.co.uk/">Energenie4u.com</a></p>
+<h1 id="web-interface-example">Web Interface Example</h1>
+<p>Use Python web framework Flask to create a simple web interface to switch socket(s) on and off</p>
+<p><img alt="" src="../../images/web.png" /></p>
+<h2 id="requirements">Requirements</h2>
+<p>Install the Python flask module with:</p>
+<pre><code class="bash">sudo pip install flask
+</code></pre>
+
+<h2 id="files">Files</h2>
 <ul>
-<li><a href="https://energenie4u.co.uk/index.php/catalogue/product/ENER002-2PI">Pi-mote control board with two socket units</a></li>
-<li><a href="https://energenie4u.co.uk/index.php/catalogue/product/ENER314">Pi-mote control board</a></li>
-<li><a href="https://energenie4u.co.uk/index.php/catalogue/product/ENER002">Individual remote control socket</a></li>
-<li><a href="https://energenie4u.co.uk/index.php/catalogue/product/ENER010">Four way extension lead</a></li>
+<li><a href="https://github.com/bennuttall/energenie/blob/master/examples/advanced/web/app.py">app.py</a></li>
 </ul>
-<h2 id="which-raspberry-pi-models-are-supported">Which Raspberry Pi Models are supported</h2>
+<p>The web application routes for <code>/</code>, <code>/on/</code> and <code>/off/</code>.</p>
 <ul>
-<li>Model <a href="http://www.raspberrypi.org/products/model-b-plus">B+</a> and <a href="http://www.raspberrypi.org/products/model-b">B</a></li>
-<li>Model <a href="http://www.raspberrypi.org/products/model-a-plus">A+</a> and <a href="http://www.raspberrypi.org/products/model-a">A</a></li>
+<li>
+<p><a href="https://github.com/bennuttall/energenie/blob/master/examples/advanced/web/templates/index.html">templates/index.html</a></p>
+<p>The HTML template containing "ON" and "OFF" buttons</p>
+</li>
+<li>
+<p><a href="https://github.com/bennuttall/energenie/blob/master/examples/advanced/web/static/style.css">static/style.css</a></p>
+<p>The CSS file to style the page</p>
+</li>
 </ul>
+<h2 id="usage">Usage</h2>
+<p>Download and extract these files:</p>
+<pre><code class="bash">wget http://goo.gl/ULIk1x -O web.tar.gz
+tar xzf web.tar.gz
+</code></pre>
+
+<p>Find your Pi's IP address, enter the <code>web</code> folder and run the Python script to start the web server:</p>
+<pre><code class="bash">hostname -I
+cd web
+sudo python app.py
+</code></pre>
+
+<p>Then open a web browser on the Pi or any device on the same network and enter the IP address of the Pi. You'll see the <code>ON</code> and <code>OFF</code> buttons. Press these to control the Energenie.</p>
 </div>
         </div>
 
         
 
         <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
-        <script src="../js/bootstrap-3.0.3.min.js"></script>
-        <script src="../js/prettify-1.0.min.js"></script>
-        <script src="../js/base.js"></script>
+        <script src="../../js/bootstrap-3.0.3.min.js"></script>
+        <script src="../../js/prettify-1.0.min.js"></script>
+        <script src="../../js/base.js"></script>
     </body>
 </html>

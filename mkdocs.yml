@@ -10,6 +10,6 @@ pages:
 - [index.md, Home]
 - [about.md, About]
 - [installing.md, Installing]
-- [examples.md, Examples]
+- [examples/index.md, Examples, Examples]
+- [examples/web.md, Examples, Web Application]
 - [reference.md, Reference]
-
