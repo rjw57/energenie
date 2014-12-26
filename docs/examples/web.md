@@ -16,7 +16,7 @@ sudo pip install flask
 
 - [app.py](https://github.com/bennuttall/energenie/blob/master/examples/advanced/web/app.py)
 
-   The web application routes for `/`, `/on/` and `/off/`.
+    The web application routes for `/`, `/on/` and `/off/`.
 
 - [templates/index.html](https://github.com/bennuttall/energenie/blob/master/examples/advanced/web/templates/index.html)
 
