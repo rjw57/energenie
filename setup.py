@@ -23,7 +23,7 @@ setup(
     install_requires=[
         "RPi.GPIO",
     ],
-    long_description=read('DESCRIPTION.rst'),
+    long_description=read('README.rst'),
     classifiers=[
         "Development Status :: 4 - Beta",
         "Topic :: Home Automation",

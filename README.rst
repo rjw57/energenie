@@ -1,5 +1,5 @@
 =========
-energenie
+Energenie
 =========
 
 Python module to control the `Energenie`_ add-on board for the `Raspberry Pi`_ used for remotely turning power sockets on and off.
