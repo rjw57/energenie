@@ -3,7 +3,7 @@
 export DH_OPTIONS
 
 %:
-	dh $@ --with python2,python3 --buildsystem=python_distutils
+	dh $@ --with python2,python3
 
 override_dh_auto_install:
 	python setup.py install --root debian/python-picamera --install-layout=deb
