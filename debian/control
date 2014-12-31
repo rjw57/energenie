@@ -17,7 +17,7 @@ Description: Remotely control power sockets from the Raspberry Pi
 
 Package: python3-energenie
 Architecture: all
-Depends: ${misc:Depends}, ${python:Depends}
+Depends: ${misc:Depends}, ${python3:Depends}
 Description: Remotely control power sockets from the Raspberry Pi
  .
  This is the Python 3 version of the package.
