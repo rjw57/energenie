@@ -10,14 +10,14 @@ X-Python3-Version: >= 3.2
 
 Package: python-energenie
 Architecture: all
-Depends: ${misc:Depends}, ${python:Depends}, python-rpi.gpio
+Depends: ${misc:Depends}, ${python:Depends}
 Description: Remotely control power sockets from the Raspberry Pi
  .
  This is the Python 2 version of the package.
 
 Package: python3-energenie
 Architecture: all
-Depends: ${misc:Depends}, ${python:Depends}, python-rpi.gpio
+Depends: ${misc:Depends}, ${python:Depends}
 Description: Remotely control power sockets from the Raspberry Pi
  .
  This is the Python 3 version of the package.
