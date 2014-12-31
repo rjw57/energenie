@@ -1,6 +1,4 @@
 #!/usr/bin/make -f
 
-export DH_OPTIONS
-
 %:
 	dh $@ --with python2,python3 --buildsystem=pybuild
