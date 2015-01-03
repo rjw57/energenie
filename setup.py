@@ -25,7 +25,7 @@ setup(
     ],
     long_description=read('README.rst'),
     classifiers=[
-        "Development Status :: 4 - Beta",
+        "Development Status :: 5 - Production/Stable",
         "Topic :: Home Automation",
         "License :: OSI Approved :: BSD License",
     ],
