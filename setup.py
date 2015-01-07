@@ -27,6 +27,7 @@ setup(
         "mock",
         "nose",
     ],
+    test_suite = "nose.collector",
     long_description=read('README.rst'),
     classifiers=[
         "Development Status :: 5 - Production/Stable",
