@@ -23,6 +23,10 @@ setup(
     install_requires=[
         "RPi.GPIO",
     ],
+    tests_require=[
+        "mock",
+        "nose",
+    ],
     long_description=read('README.rst'),
     classifiers=[
         "Development Status :: 5 - Production/Stable",
