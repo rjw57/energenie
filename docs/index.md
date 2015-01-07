@@ -45,6 +45,23 @@ switch_off(1)
 switch_off(4)
 ```
 
+## Testing
+
+A basic test suite is included which can be used to test the module even when
+not running on the Pi. The test suite may be run via ``setup.py``.
+
+### Python 3:
+
+```bash
+python-3.2 setup.py test
+```
+
+### Python 2:
+
+```bash
+python setup.py test
+```
+
 ## Contributors
 
 - [Ben Nuttall](https://github.com/bennuttall) (project maintainer)
